@@ -5,11 +5,14 @@ import "./style.css"
 const Navcomp = () => {
   return (
     <div className='Navbox'>
-            <Link to="" className='btn btn-primary'>Home</Link>{" "}
-            <Link to="About" className='btn btn-primary'>About Us</Link>{" "}
-            <Link to="Products" className='btn btn-primary'>Products</Link>{" "}
-            <Link to="Contact" className='btn btn-primary'>Contact</Link>{" "}
+
+            <Link to="" className='navlinks'>Home</Link>{" "}
+            <Link to="About" className='navlinks'>About Us</Link>{" "}
+            <Link to="Products" className='navlinks'>Products</Link>{" "}
+            <Link to="Contact" className='navlinks'>Contact</Link>{" "}
+
     </div>
+    
   )
 }
 
